@@ -11,3 +11,6 @@ df = nsfg.ReadFemPreg()
 
 df.describe()
 df.columns
+
+pregorder = df['pregordr']
+pregorder = df.pregordr
